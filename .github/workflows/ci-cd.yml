@@ -28,7 +28,7 @@ deploy:
     needs: test
     steps:
      - name: Checkout code
-        uses: actions/checkout@v3
+       uses: actions/checkout@v3
 
      - name: Log in to Docker Hub
         uses: docker/login-action@v2
